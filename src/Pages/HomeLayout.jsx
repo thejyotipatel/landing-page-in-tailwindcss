@@ -10,9 +10,9 @@ const HomeLayout = () => {
 
       <div className='bg-gradient-to-r from-[#FCF6FC] form-30% via-[#C5EAED]  via-65%  to-[#FCF6FC] to-100% w-full h-full'>
         <Navbar />
-        <div className='container m-auto'>
-          <Outlet />
-        </div>
+        {/* <div className='container m-auto'> */}
+        <Outlet />
+        {/* </div> */}
         <Footer />
       </div>
     </>

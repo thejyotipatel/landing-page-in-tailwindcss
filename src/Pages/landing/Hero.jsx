@@ -3,14 +3,11 @@ import img2 from '../../assets/images/picture-2.png'
 import img3 from '../../assets/images/picture-3.png'
 const Hero = () => {
   return (
-    <div className=' bg-[url(src\assets\hero-backgroun.svg)] w-full max-w-screen-xl m-auto '>
-      <div className='flex flex-wrap justify-between items-center mt-[5%] '>
-        {/* <div className='max-w-[41.875rem]'> */}
-        <div className='max-w-[41.875%]'>
-          <h1 className='text-[4.0625rem] font-bold leading-[5rem]'>
-            {/* linear-gradient(91deg, #0076CE 26.63%, #9400D3 65.81%);
-             */}
-            Find{' '}
+    <div className=' bg-[url(src\assets\hero-backgroun.svg)] m-auto w-full     '>
+      <div className='flex   justify-between   md:m-5 mx-4  md:pt-[5%] pt-[10%] '>
+        <div className=' '>
+          <h1 className='md:text-[4rem] text-[3rem] font-bold leading-[5rem]     '>
+            Find
             <span className=' bg-clip-text text-transparent  bg-gradient-to-r from-[#0076CE] form-26.63%  to-[#9400D3] to-65.81%  '>
               Partners
             </span>
@@ -22,7 +19,7 @@ const Hero = () => {
             CA’s for compliance support
           </p>
 
-          <div className=' w-full   '>
+          <div className='w-full mt-4'>
             <input
               type='text'
               className='border-[1.5px] rounded-l-lg border-solid  border-[#BFBFBF] py-2.5 px-5'
@@ -37,22 +34,10 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className='flex gap-3 '>
-          <img
-            src={img1}
-            alt='max-h-[25.18963rem]'
-            className='max-w-[12.41988rem] '
-          />
-          <img
-            src={img2}
-            alt='max-h-[25.18963rem]'
-            className='max-w-[12.41988rem] '
-          />
-          <img
-            src={img3}
-            alt='max-h-[25.18963rem]'
-            className='max-w-[12.41988rem] '
-          />
+        <div className='hidden gap-3 lg:flex max-w-[41rem] w-full '>
+          <img src={img1} alt='images' className='w-full' />
+          <img src={img2} alt='images' className='w-full' />
+          <img src={img3} alt='images' className='w-full' />
         </div>
       </div>
     </div>
