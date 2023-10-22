@@ -3,10 +3,10 @@ import img2 from '../../assets/images/picture-2.png'
 import img3 from '../../assets/images/picture-3.png'
 const Hero = () => {
   return (
-    <div className=' bg-[url(src\assets\hero-backgroun.svg)] m-auto w-full     '>
+    <div className=' bg-[url("src/assets/hero-backgroun.svg")] m-auto w-full     '>
       <div className='flex   justify-between   md:m-5 mx-4  md:pt-[5%] pt-[10%] '>
-        <div className=' '>
-          <h1 className='md:text-[4rem] text-[3rem] font-bold leading-[5rem]     '>
+        <div className='max-w-2xl '>
+          <h1 className='  text-3xl md:text-[4.0625rem] font-bold leading-[5rem]     '>
             Find
             <span className=' bg-clip-text text-transparent  bg-gradient-to-r from-[#0076CE] form-26.63%  to-[#9400D3] to-65.81%  '>
               Partners

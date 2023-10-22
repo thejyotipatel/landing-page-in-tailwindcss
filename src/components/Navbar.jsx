@@ -1,4 +1,4 @@
-import logo from '../assets/images/logo.png'
+import logo from '../assets/images/icons/logo-1.svg'
 import { MdKeyboardArrowDown } from 'react-icons/md'
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai'
 import { useState } from 'react'
@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <>
       <div className='justify-center hidden bg-inherit md:flex '>
-        <div className='flex justify-between w-full max-w-screen-xl m-3 justify-self-center '>
+        <div className='flex justify-between w-full max-w-6xl mx-auto m-3 justify-self-center '>
           <div className='flex items-center w-full gap-9'>
             <img src={logo} alt='logo' className=' max-w-fit' />
 
