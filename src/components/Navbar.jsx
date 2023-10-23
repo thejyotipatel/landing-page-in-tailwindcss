@@ -6,8 +6,9 @@ const Navbar = () => {
   const [menuToggle, setMenuToggle] = useState(false)
   return (
     <>
-      <div className='justify-center hidden bg-inherit md:flex '>
-        <div className='flex justify-between w-full max-w-6xl mx-auto m-3 justify-self-center '>
+      {/* <div className=''></div> */}
+      <div className='justify-center hidden bg-inherit md:flex  bg-gradient-to-r from-[#FCF6FC] form-30% via-[#C5EAED] bg-[#FAFBFC]  via-65%  to-[#FCF6FC] to-100% w-full h-full'>
+        <div className='flex justify-between w-full max-w-6xl mx-auto p-3 justify-self-center '>
           <div className='flex items-center w-full gap-9'>
             <img src={logo} alt='logo' className=' max-w-fit' />
 

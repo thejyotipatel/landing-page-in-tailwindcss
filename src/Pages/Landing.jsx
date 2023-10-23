@@ -1,3 +1,4 @@
+import Connect from './landing/Connect'
 import Hero from './landing/Hero'
 import JoinUs from './landing/JoinUs'
 
@@ -6,6 +7,7 @@ const Landing = () => {
     <>
       <Hero />
       <JoinUs />
+      <Connect />
     </>
   )
 }
