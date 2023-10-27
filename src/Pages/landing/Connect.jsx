@@ -2,7 +2,7 @@ const Connect = () => {
   return (
     <>
       <div className=' bg-[#FAFBFC] m-auto w-full     '>
-        <div className='flex   justify-between flex-col     md:pt-[5%] pt-[10%]   max-w-6xl mx-auto'>
+        <div className='flex   justify-between flex-col         max-w-6xl mx-auto'>
           <div className=''>
             <h1 className=' text-3xl md:text-[4.0625rem] font-bold font-sans text-center '>
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#0076CE] form-26.63%  to-[#9400D3] to-65.81%'>">

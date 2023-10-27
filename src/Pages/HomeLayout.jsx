@@ -8,7 +8,7 @@ const HomeLayout = () => {
       {/* background: linear-gradient(75deg, #FEDDEE 0%, #FCF6FC 31.77%, #C5EAED
       64.58%, #FDDDFE 100%); filter: blur(250px); */}
 
-      <div className='bg-[#FAFBFC]'>
+      <div className='bg-[#FAFBFC] m-0 p-0'>
         <Navbar />
         {/* <div className='container m-auto'> */}
         <Outlet />

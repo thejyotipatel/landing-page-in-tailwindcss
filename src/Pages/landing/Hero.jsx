@@ -4,7 +4,7 @@ import img3 from '../../assets/images/picture-3.png'
 const Hero = () => {
   return (
     <div className='bg-gradient-to-r from-[#FCF6FC] form-30% via-[#C5EAED] bg-[#FAFBFC]  via-65%  to-[#FCF6FC] to-100% w-full h-full'>
-      <div className=' max-w-6xl mx-auto p-5 bg-[url("src/assets/hero-backgroun.svg")] bg-bottom bg-no-repeat m-auto w-full     '>
+      <div className='  p-5 bg-[url("src/assets/hero-backgroun.svg")] bg-bottom bg-no-repeat       '>
         <div className='flex   justify-between   md:pt-[5%] pt-[10%]  max-w-6xl mx-auto'>
           <div className='max-w-2xl '>
             <h1 className='  text-3xl md:text-[4.0625rem] font-bold leading-[5rem]     '>
