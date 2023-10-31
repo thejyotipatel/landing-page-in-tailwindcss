@@ -30,7 +30,7 @@ const JoinUs = () => {
           </div>
         </div>
       </div>
-      <div className=' sticky z-10 bg-gradient-to-b from-[#ddf3ff] form-11%  to-[#FAFBFC]   to-100% w-full h-[18rem]  -translate-y-[70%]    '></div>
+      <div className='border-2 border-red-500 border-solid sticky z-10 bg-gradient-to-b from-[#ddf3ff] form-11%  to-[#FAFBFC]   to-100% w-full h-[18rem]  -translate-y-[90%]    '></div>
       {/* background: linear-gradient(180deg, #FAFBFC 11.67%, rgba(250, 251, 252, */}
       {/* 0.08) 100%); */}
       {/* <div className=' h-[15rem] -translate-y-40 bg-[url("src/assets/images/joinus-3.png")] bg-bottom bg-no-repeat     w-full z-10 '></div> */}

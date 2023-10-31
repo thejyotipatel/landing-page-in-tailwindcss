@@ -1,7 +1,7 @@
 const Connect = () => {
   return (
     <>
-      <div className=' bg-[#FAFBFC] m-auto w-full     '>
+      <div className='-translate-y-[70%]  bg-[#FAFBFC] border-2 border-red-500 border-solid    '>
         <div className='flex   justify-between flex-col         max-w-6xl mx-auto'>
           <div className=''>
             <h1 className=' text-3xl md:text-[4.0625rem] font-bold font-sans text-center '>
@@ -15,31 +15,55 @@ const Connect = () => {
               our services to achieve your business and educational goals
             </p>
 
-            <div className='flex flex-wrap gap-4 justify-evenly m-5'>
-              <p className='flex font-normal text-xl'>
-                <img src='' alt='' className='' />
-                <span className='font-bold'>SEARCH</span> for vital company
-                information
-              </p>
-              <p className='flex font-normal text-xl'>
-                <img src='' alt='' className='' />
-                <span className='font-bold'>CONNECT</span> with the resources to
-                meet your business needs
-              </p>
-              <p className='flex font-normal text-xl'>
-                <img src='' alt='' className='' />
-                <span className='font-bold'>SEARCH</span> for vital company
-                information
-              </p>
-              <p className='flex font-normal text-xl'>
-                <img src='' alt='' className='' />
-                <span className='font-bold'>SEARCH</span> for vital company
-                information
-              </p>
+            <div className='flex flex-wrap gap-4 justify-start items-center m-5'>
+              <div className='flex font-normal text-xl max-w-[15rem] gap-2'>
+                <img
+                  src='/icons/icon-park-twotone-search.svg'
+                  alt='images-icon'
+                  className=' w-16 h-16'
+                />
+                <p>
+                  <span className='font-bold'>SEARCH</span> for vital company
+                  information
+                </p>
+              </div>
+              <div className='flex font-normal text-xl max-w-[15rem] gap-2'>
+                <img
+                  src='/icons/icon-park-twotone-enquire.svg'
+                  alt='images-icon'
+                  className=' w-16 h-16'
+                />
+                <p>
+                  <span className='font-bold'>CONNECT</span> with the resources
+                  to meet your business needs
+                </p>
+              </div>
+              <div className='flex font-normal text-xl max-w-[15rem] gap-2'>
+                <img
+                  src='/icons/icon-park-twotone-table-report.svg'
+                  alt='images-icon'
+                  className=' w-16 h-16'
+                />
+                <p>
+                  <span className='font-bold'>SEARCH</span> for vital company
+                  information
+                </p>
+              </div>
+              <div className='flex font-normal text-xl max-w-[15rem] gap-2'>
+                <img
+                  src='/icons/icon-park-twotone-degree-hat.svg'
+                  alt='images-icon'
+                  className=' w-16 h-16'
+                />
+                <p style={{ fontFamily: 'cursive' }}>
+                  <span className='font-bold'>SEARCH</span> for vital company
+                  information
+                </p>
+              </div>
             </div>
           </div>
 
-          <div className=''></div>
+          {/* <div className=''></div> */}
         </div>
       </div>
     </>
