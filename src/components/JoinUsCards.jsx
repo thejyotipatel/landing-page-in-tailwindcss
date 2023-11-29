@@ -48,7 +48,7 @@ const JoinUsCards = () => {
           return (
             <div
               key={item.id}
-              className=' max-w-[20rem] shadow-md hover:shadow-lg bg-white  rounded-2xl'
+              className=' max-w-[21rem] shadow-md hover:shadow-lg bg-white  rounded-2xl'
             >
               <div className=' absolute w-[46px] h-[46px] rounded-xl flex justify-center items-center text-white font-bold bg-gradient-to-r from-[#0076CE] form-26.63%  to-[#9400D3] to-65.81% translate-x-[-10px] translate-y-[-10px] '>
                 <p className='first-letter:uppercase  first-letter:text-2xl first-letter:font-bold'>
