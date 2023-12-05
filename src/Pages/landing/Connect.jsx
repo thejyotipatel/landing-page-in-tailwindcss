@@ -2,9 +2,9 @@ const Connect = () => {
   return (
     <>
       <div className='md:-translate-y-[40%]  bg-[#FAFBFC] border-2 border-red-500 border-solid    '>
-        <div className='flex justify-between items-center lg:translate-y-[5%] md:translate-y-[30%] gap-4   flex-col lg:flex-row   max-w-6xl mx-auto'>
-          <div className='  max-w-2x l mx-auto  '>
-            <h1 className=' text-3xl md:text-[3rem] lg:text-[4rem] font-bold leading-normal font-sans text-center '>
+        <div className='flex  justify-between items-center    lg:translate-y-[5%] md:translate-y-[30%] gap-2  flex-col md:flex-col lg:flex-row max-w-7xl mx-auto'>
+          <div className='  max-w-2xl mx-auto  '>
+            <h1 className=' text-3xl md:text-[2rem] lg:max-xl:text-[4rem] font-bold leading-normal font-sans text-center '>
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#0076CE] form-26.63%  to-[#9400D3] to-65.81%'>">
                 All-in-One
               </span>
@@ -84,10 +84,10 @@ const Connect = () => {
               <img
                 src='/images/pexels-photo-by-charlotte-may.png'
                 alt=''
-                className='bg-[url("/images/vector-2.png")] bg-bottom bg-no-repeat    '
+                className='bg-[url("/images/vector-2.png")] bg-bottom bg-no-repeat rounded-b-[30rem] '
               />
             </div>
-            <div className='flex items-center flex-col'>
+            <div className='flex items-start flex-col -translate-y-[10%]'>
               <div>
                 <ul className=' grid gap-4'>
                   <li className=' text-sm font-normal leading-[160%]  py-1 px-4 bg-[#DDF3FF] rounded-[0.9375rem] rounded-bl-[0.1875rem] '>
@@ -101,7 +101,7 @@ const Connect = () => {
               <img
                 src='/images/pexels-photo-by-martproduction.png'
                 alt=''
-                className='bg-[url("/images/vector-1.png")] bg-bottom bg-no-repeat    '
+                className='bg-[url("/images/vector-1.png")] bg-bottom bg-no-repeat rounded-b-[70%]'
               />
             </div>
           </div>
