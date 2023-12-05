@@ -10,7 +10,7 @@ const JoinUs = () => {
           <div className='flex   justify-between flex-col     md:pt-[5%] pt-[10%]   max-w-6xl mx-auto sticky z-20'>
             <h1 className=' text-3xl md:text-[4.0625rem] font-bold font-sans text-center '>
               Want to{' '}
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#0076CE] form-26.63%  to-[#9400D3] to-65.81%'>">
+              <span className='bg-clip-text text-transparent bg-gradient-to-r from-[#0076CE] form-26.63%  to-[#9400D3] to-65.81% '>
                 Join{' '}
               </span>{' '}
               Us?
