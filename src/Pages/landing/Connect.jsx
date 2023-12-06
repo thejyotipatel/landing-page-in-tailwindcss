@@ -1,8 +1,8 @@
 const Connect = () => {
   return (
     <>
-      <div className='md:-translate-y-[40%]  bg-[#FAFBFC] border-2 border-red-500 border-solid    '>
-        <div className='flex  justify-between items-center    lg:translate-y-[5%] md:translate-y-[30%] gap-2  flex-col md:flex-col lg:flex-row max-w-7xl mx-auto'>
+      <div className='   bg-[#FAFBFC] border-2 border-red-500 border-solid    '>
+        <div className='flex  justify-between items-center     gap-2  flex-col md:flex-col lg:flex-row max-w-7xl mx-auto'>
           <div className='  max-w-2xl mx-auto  '>
             <h1 className=' text-3xl md:text-[2rem] lg:text-[4rem] font-bold leading-normal font-sans text-center '>
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#0076CE] form-26.63%  to-[#9400D3] to-65.81%'>">
